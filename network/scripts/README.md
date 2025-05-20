@@ -2,6 +2,18 @@
 
 Automatically update Cloudflare Access Policies and DNS records when your public IP changes. Ideal for home networks with dynamic IPs.
 
+![alt text](/assets/network/cloudflare_script.png)
+
+## Navigation
+* [Apps](/apps/README.md) - List of all the apps and services.
+* [Dashboard](/dashboard/README.md) - Dashboards and monitoring tools.
+* [Network](/network/README.md) - Network scripts and Cloudflare setup.
+  - [__Scripts__](/network/scripts/README.md) - Scripts for network and cloudflare.
+* [Home Assistant](/homeassistant/README.md) - Smart home services and automation.
+
+
+WIP
+
 ## **Features**
 - Checks public IP every 5 minutes
 - Updates Cloudflare Access Policy & DNS A record only if IP changes

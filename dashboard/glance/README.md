@@ -1,6 +1,14 @@
-## Glance Dashboard Documentation
+# Glance Dashboard Documentation
+This is a work in progress, check back for more!
 
-![alt text](image.png)
+## Navigation
+* [Apps](/apps/README.md) - List of all the apps and services.
+* [Dashboard](/dashboard/README.md) - Dashboards and monitoring tools.
+  - [__Glance__](/dashboard/glance/README.md) - Dashboards and monitoring tools.
+* [Network](/network/README.md) - Network scripts and Cloudflare setup.
+* [Home Assistant](/homeassistant/README.md) - Smart home services and automation.
+
+![alt text](/assets/dashboard/glance.png)
 
 ### Overview
 Glance is a customizable dashboard for monitoring your homelab services, with support for:
