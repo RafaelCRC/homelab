@@ -1,0 +1,132 @@
+- name: HomeLab
+
+  hide-desktop-navigation: false
+  columns:
+    
+    - size: small
+      widgets:
+
+        - type: server-stats
+          servers:
+            - type: local
+              name: Raspberry Pi
+              cpu-temp-sensor: cpu_thermal
+              hide-swap: false
+              hide-mountpoints-by-default: true
+              mountpoints:
+                /:
+                  name: Root FS
+                  hide: false
+
+        - type: docker-containers
+          hide-by-default: false
+
+    - size: full
+      widgets:
+
+        - type: search
+          autofocus: true
+          search-engine: google
+          new-tab: true
+          bangs:
+            - title: YouTube
+              shortcut: "!yt"
+              url: https://www.youtube.com/results?search_query={QUERY}
+            - title: Github
+              shortcut: "!gh"
+              url: https://github.com/search?q={QUERY}&type=repositories
+
+        - type: monitor
+          cache: 1m
+          title: Homelab Services
+          sites:
+            - title: Proxmox
+              url: https://proxmox.your_domain.com
+              icon: di:proxmox
+            - title: Glance
+              url: https://your_domain.com              
+              icon: di:glance
+            - title: Karakeep
+              url: https://karakeep.your_domain.com
+              icon: di:karakeep
+            - title: Home Assistant
+              url: https://home.your_domain.com
+              icon: di:home-assistant
+            - title: Portainer
+              url: https://portainer.your_domain.com
+              icon: di:portainer
+            - title: AMP
+              url: https://amp.your_domain.com
+              icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/amp.png
+
+        - type: monitor
+          cache: 1m
+          title: Network Services
+          sites:
+            - title: DietPi SSH
+              url: https://pi.your_domain.com
+              icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/webp/dietpi.webp
+            - title: Adguard Home
+              url: https://guard.your_domain.com
+              icon: di:adguard-home
+
+        - type: group
+          widgets:
+            - type: reddit
+              subreddit: homelab
+              show-thumbnails: true
+              collapse-after: 6
+
+            - type: reddit
+              subreddit: raspberry_pi
+              show-thumbnails: true
+              collapse-after: 6
+
+            - type: reddit
+              subreddit: pcgaming
+              show-thumbnails: true
+              collapse-after: 6
+
+            - type: reddit
+              subreddit: selfhosted
+              show-thumbnails: true
+              collapse-after: 6
+
+            - type: reddit
+              subreddit: games
+
+            - type: reddit
+              subreddit: pcgaming
+              show-thumbnails: true
+              collapse-after: 6
+
+    - size: small
+      widgets:
+
+        - type: dns-stats
+          service: adguard
+          url: https://guard.your_domain.com/
+          username: youruser
+          password: yourpassword
+
+        - type: bookmarks
+          groups:
+            - title: HomeLab
+              color: 10 70 50
+              links:
+                - title: CloudFlare
+                  url: https://dash.cloudflare.com/
+                - title: CloudFlare ZeroTrust
+                  url: https://one.dash.cloudflare.com/
+                - title: Okta
+                  url: https://dev-40176578.okta.com/
+                - title: Proxmox VE Scripts
+                  url: https://community-scripts.github.io/ProxmoxVE/scripts
+                - title: TechHut Article
+                  url: https://techhut.tv/must-have-home-server-services-2025/
+
+        - type: repository
+          repository: TechHutTV/homelab
+          pull-requests-limit: 5
+          issues-limit: 3
+          commits-limit: 3
