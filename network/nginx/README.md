@@ -19,6 +19,8 @@ Create secure local domains (e.g., `guard.yourdomain.com`) to access services li
 
 ---
 
+Currently im doing DNS rewrite on Adguard and proxy on npm for local services
+
 ## **Prerequisites**
 1. **Docker & Docker Compose** installed.
 2. A **domain** (e.g., `yourdomain.com`) managed by Cloudflare.
