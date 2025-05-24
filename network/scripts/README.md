@@ -172,6 +172,11 @@ Make it executable:
 ```bash
 sudo chmod +x /cloudflare/flareipupdate.sh
 ```
+---
+
+## **Note**
+
+if you use [ddns](/network/dnss/README.md) you dont need the "DNS Record updating" part of the script
 
 ---
 

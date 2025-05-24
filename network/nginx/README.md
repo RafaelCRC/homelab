@@ -1,4 +1,4 @@
-# **Nginx Proxy Manager**
+# **Nginx Proxy Manager Setup for Local Domains**  
 
 Create secure local domains (e.g., `guard.yourdomain.com`) to access services like AdGuard Home, using Cloudflare DNS and SSL.
 
@@ -14,11 +14,6 @@ Create secure local domains (e.g., `guard.yourdomain.com`) to access services li
   - [Scripts](/network/scripts/README.md) - Scripts for network and cloudflare.
   - [Wireguard](/network/wireguard/README.md) - Wireguard VPN Server.
 * [Home Assistant](/homeassistant/README.md) - Smart home services and automation.
-
----
-
-# **Nginx Proxy Manager Setup for Local Domains**  
-Create secure local domains (e.g., `guard.yourdomain.com`) to access services like AdGuard Home, using Cloudflare DNS and SSL.
 
 ---
 
