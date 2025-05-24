@@ -18,7 +18,8 @@ Dashboard are used to create a simple webpage with links to all the services, we
 
 ### Glance
 
-![alt text](/assets/dashboard/glance.png)
+<!-- ![alt text](/assets/dashboard/glance.png) -->
+<img src="../assets/dashboard/glance.png" width="900" alt="glance"/>
 
 **TechHutTV statement**:
 
@@ -26,23 +27,51 @@ Dashboard are used to create a simple webpage with links to all the services, we
 
 For me is a lightweight but complete dashboard that serves my purpouses.
 
+## Server Monitoring
+
+### Webmin
+
+<!-- ![alt text](/assets/monitoring/webmin.png) -->
+<img src="../assets/monitoring/webmin.png" width="900" alt="webmin"/>
+
+Webmin server monitoring for my raspberry pi 4, great ui with endless features.
+
+
 ## Smart Home and Automation
 
-### Home Assistant WIP
+### Home Assistant
 
-![](/assets/)
+<!-- ![alt text](/assets/homeassistant/home1.png) -->
+<img src="../assets/homeassistant/home1.png" width="900" alt="home"/>
 
 Home Assistant is a great tool that allows the connection of many devices in your smart home and integrate them together with a variety blueprints, automatons, and more. You can create custom dashboards, use their mobile app, and so much more I can’t even properly describe here how much this tool is capable of.
 
 ## DNS and Remote Connections
 
+### Adguard
+
+<!-- ![alt text](/assets/network/adguardhome.png) -->
+<img src="../assets/network/adguardhome.png" width="900" alt="adguard"/>
+
+My choice DNS server, a Domain Name Service that blocks certain DNS inquiries. It uses filter rules and blacklists of domains associated with advertisements and tracking.
+
+### NGINX Proxy Manager
+
+<!-- ![alt text](/assets/network/nginx1.png) -->
+<img src="../assets/network/nginx1.png" width="900" alt="npm"/>
+
+NGINX Proxy Manager is a simple web based proxy manager for setting up and forwarding domain names to your services and generating SSL certifications. I use this for local top level domains.
+
 ### Cloudflare Tunnel and Scripts
 
-![alt text](/assets/network/cloudflare_script.png)
-
-This is a simple solution I found to expose my services to the internet. Using Cloudflare Tunnel is much simpler than setting up a proxy and creating certificates. If you have static IPs on your server, it’s even better. In my case, I found a workaround by creating scripts that update my custom DNS records and policies with my public IP. 
+This is a simple solution I found to expose my services to the internet. Using Cloudflare Tunnel is much simpler than setting up a proxy and creating certificates. If you have static IPs on your server, it’s even better. In my case, I found a workaround by creating scripts and using DDNS that update my custom DNS records and policies with my public IP. 
 
 Why i need this?
 I need to use this becuase my public IP is dynamic, meaning it will randomly and automatically change every few weeks or sometimes every few days.
 
-While Cloudflare DDNS is a better solution, I have other features that DDNS isn’t enough to cover.
+### Wireguard
+
+<!-- ![alt text](/assets/network/wireguard.png) -->
+<img src="../assets/network/wireguard.png" width="900" alt="wireguard"/>
+
+Self-hosted VPN to have remote access to my local services.
