@@ -6,6 +6,7 @@ Homelab stacks, templates, and more fun resources! This is a *work in progress*.
 * [Dashboard](/dashboard/README.md) - Dashboards and monitoring tools.
 * [Network](/network/README.md) - Network scripts and Cloudflare setup.
 * [Home Assistant](/homeassistant/README.md) - Smart home services and automation.
+* [Server Monitoring](/monitoring/README.md) - Server Monitoring services.
 
 ## Hardware
 

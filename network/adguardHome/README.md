@@ -14,6 +14,8 @@ Creates a DNS server for your local network to apply filter rules and other feat
   - [Scripts](/network/scripts/README.md) - Scripts for network and cloudflare.
   - [Wireguard](/network/wireguard/README.md) - Wireguard VPN Server.
 * [Home Assistant](/homeassistant/README.md) - Smart home services and automation.
+* [Server Monitoring](/monitoring/README.md) - Server Monitoring services.
+
 
 ---
 
