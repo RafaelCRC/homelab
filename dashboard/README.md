@@ -7,3 +7,4 @@ This is a work in progress, check back for more!
   - [Glance](/dashboard/glance/README.md) - Dashboards and monitoring tools.
 * [Network](/network/README.md) - Network scripts and Cloudflare setup.
 * [Home Assistant](/homeassistant/README.md) - Smart home services and automation.
+* [Server Monitoring](/monitoring/README.md) - Server Monitoring services.

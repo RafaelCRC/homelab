@@ -6,9 +6,7 @@ This is a work in progress, check back for more!
 * [Dashboard](/dashboard/README.md) - Dashboards and monitoring tools.
 * [Network](/network/README.md) - Network scripts and Cloudflare setup.
 * [__Home Assistant__](/homeassistant/README.md) - Smart home services and automation.
-  - [Dashboard](/homeassistant/dashboard/README.md)
-  - [LocalTuya](/homeassistant/localtuya/README.md)
-  - [Zigbee](/homeassistant/zigbee/README.md)
+  - [Automation](/homeassistant/automation/README.md)
 
 
 WIP

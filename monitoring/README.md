@@ -6,7 +6,7 @@ This is a work in progress, check back for more!
 * [Dashboard](/dashboard/README.md) - Dashboards and monitoring tools.
 * [Network](/network/README.md) - Network scripts and Cloudflare setup.
 * [Home Assistant](/homeassistant/README.md) - Smart home services and automation.
-* [Server Monitoring](/monitoring/README.md) - Server Monitoring services.
-
+* [__Server Monitoring__](/monitoring/README.md) - Server Monitoring services.
+  - [Webmin](/monitoring/webmin/README.md) - Webmin server monitoring for PI.
 
 WIP
