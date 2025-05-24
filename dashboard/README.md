@@ -8,3 +8,4 @@ This is a work in progress, check back for more!
 * [Network](/network/README.md) - Network scripts and Cloudflare setup.
 * [Home Assistant](/homeassistant/README.md) - Smart home services and automation.
 * [Server Monitoring](/monitoring/README.md) - Server Monitoring services.
+* [Tools](/tools/README.md) - Tools that makes life easier.

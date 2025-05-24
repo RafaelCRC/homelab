@@ -8,5 +8,6 @@ This is a work in progress, check back for more!
 * [Home Assistant](/homeassistant/README.md) - Smart home services and automation.
 * [__Server Monitoring__](/monitoring/README.md) - Server Monitoring services.
   - [Webmin](/monitoring/webmin/README.md) - Webmin server monitoring for PI.
+* [Tools](/tools/README.md) - Tools that makes life easier.
 
 WIP
