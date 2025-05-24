@@ -8,8 +8,10 @@ Creates a DNS server for your local network to apply filter rules and other feat
 * [Apps](/apps/README.md) - List of all the apps and services.
 * [Dashboard](/dashboard/README.md) - Dashboards and monitoring tools.
 * [Network](/network/README.md) - Network scripts and Cloudflare setup.
-  - [Scripts](/network/scripts/README.md) - Scripts for network and cloudflare.
   - [__Adguard Home__](/network/adguardHome/README.md) - Adguard DNS Server.
+  - [DNSS](/network/dnss/README.md) - Container to update Cloudflare records with public ip.
+  - [Nginx Proxy Manager](/network/nginx/README.md) - Nginx proxy manager.
+  - [Scripts](/network/scripts/README.md) - Scripts for network and cloudflare.
   - [Wireguard](/network/wireguard/README.md) - Wireguard VPN Server.
 * [Home Assistant](/homeassistant/README.md) - Smart home services and automation.
 
